@@ -21,10 +21,10 @@ Directory layout:
     - bar.js
   - bundle.js
   - bundle.min.js
-  - test.js
+  ✓ test.js
   ✓ demo.html
-  - runner.html
+  ✓ runner.html
 
-I'd like the test to be able to issue an XHR for /data/test.txt.
-The dev server should update & reload pages.
-
+- I'd like the test to be able to issue an XHR for /data/test.txt.
+- The dev server should update & reload pages.
+- Should build a bundle which can be browserified from another repo

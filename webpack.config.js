@@ -17,8 +17,7 @@ module.exports = {
   resolve: {
     root: srcPath,
     extensions: ['', '.js'],
-    modulesDirectories: ['node_modules', 'src'],
-    // alias: moduleAlias
+    modulesDirectories: ['node_modules', 'src']
   },
   output: {
     path: path.join(__dirname, 'dist'),
@@ -47,7 +46,8 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
   ],
   debug: true,
-  devtool: 'eval-cheap-module-source-map',
+  // devtool: 'eval-cheap-module-source-map',
+  devtool: 'source-map',
   devServer: {
     port: 9090,
     contentBase: './'
