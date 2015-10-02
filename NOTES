@@ -1,0 +1,25 @@
+What I'd like to have at the end:
+
+Directory layout:
+- src
+  - main
+    - foo.js
+    - bar.js
+  - test
+    - foo-test.js
+    - bar-test.js
+- node_modules
+  - ...
+- data
+  - test.txt
+- dist
+  - main
+    - foo.js
+    - bar.js
+  - bundle.js
+  - test.js
+  - demo.html
+  - runner.html
+
+I'd like the test to be able to issue an XHR for /data/test.txt.
+The dev server should update & reload pages.
