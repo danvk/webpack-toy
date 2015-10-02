@@ -1,5 +1,5 @@
 import foo from 'main/Foo';
 
-document.querySelector('button').on('click', () => {
+document.querySelector('button').onclick = () => {
   foo().then(text => alert(text));
-});
+};

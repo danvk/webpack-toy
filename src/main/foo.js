@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function foo() {
   return axios.get('/data/test.txt')
     .then(response => {
-      let b = new Bar(response);
+      let b = new Bar(response.data);
       return b.getText();
     })
     .catch(err => { console.error(err); });

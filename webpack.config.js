@@ -40,6 +40,6 @@ module.exports = {
   devtool: 'eval-cheap-module-source-map',
   devServer: {
     port: 9090,
-    contentBase: './dist'
+    contentBase: './'
   }
 };

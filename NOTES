@@ -21,7 +21,7 @@ Directory layout:
   - bundle.js
   - bundle.min.js
   - test.js
-  - demo.html
+  ✓ demo.html
   - runner.html
 
 I'd like the test to be able to issue an XHR for /data/test.txt.
