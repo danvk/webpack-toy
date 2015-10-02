@@ -8,6 +8,8 @@ Directory layout:
   - test
     - foo-test.js
     - bar-test.js
+  - demo.html
+  - demo.js
 - node_modules
   - ...
 - data
@@ -23,3 +25,4 @@ Directory layout:
 
 I'd like the test to be able to issue an XHR for /data/test.txt.
 The dev server should update & reload pages.
+
