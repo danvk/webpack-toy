@@ -1,4 +1,5 @@
 import Bar from '../main/bar';
+import {expect} from 'chai';
 
 describe('Bar', () => {
   it('should add bar', () => {

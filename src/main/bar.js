@@ -5,6 +5,6 @@ export default class Bar {
   }
 
   getText() {
-    return `bar ${this.text} bar`;
+    return `bar ${this.text.trim()} bar`;
   }
 }

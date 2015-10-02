@@ -1,4 +1,5 @@
 import foo from '../main/foo';
+import {expect} from 'chai';
 
 describe('foo', () => {
   it('should request test.txt', () => {

@@ -10,6 +10,7 @@ Directory layout:
     - bar-test.js
   - demo.html
   - demo.js
+  - runner.html
 - node_modules
   - ...
 - data
