@@ -19,6 +19,7 @@ Directory layout:
     - foo.js
     - bar.js
   - bundle.js
+  - bundle.min.js
   - test.js
   - demo.html
   - runner.html
