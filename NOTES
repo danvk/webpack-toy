@@ -28,3 +28,22 @@ Directory layout:
 - I'd like the test to be able to issue an XHR for /data/test.txt.
 - The dev server should update & reload pages.
 - Should build a bundle which can be browserified from another repo
+  (and include an external sourcemap)
+  Should have NODE_ENV=production
+
+To iterate on the demo, run:
+
+    webpack-dev-server --hot --inline --progress --colors
+
+And then load http://localhost:9090/dist/demo.html
+
+To iterate on the tests, run:
+
+    webpack-dev-server --hot --inline --progress --colors
+
+And then load http://localhost:9090/dist/runner.html
+
+To build a "production" bundle, run:
+
+    webpack --config webpack.config.prod.js &&
+    webpack --config webpack.config.prod.min.js

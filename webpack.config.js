@@ -48,6 +48,9 @@ module.exports = {
   debug: true,
   // devtool: 'eval-cheap-module-source-map',
   devtool: 'source-map',
+  // devtool: 'eval-source-map',
+  // devtool: 'cheap-source-map',
+  // devtool: 'eval-cheap-source-map',
   devServer: {
     port: 9090,
     contentBase: './'
