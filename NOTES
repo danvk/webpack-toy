@@ -31,19 +31,6 @@ Directory layout:
   (and include an external sourcemap)
   Should have NODE_ENV=production
 
-To iterate on the demo, run:
-
-    webpack-dev-server --hot --inline --progress --colors
-
-And then load http://localhost:9090/dist/demo.html
-
-To iterate on the tests, run:
-
-    webpack-dev-server --hot --inline --progress --colors
-
-And then load http://localhost:9090/dist/runner.html
-
-To build a "production" bundle, run:
-
-    webpack --config webpack.config.prod.js &&
-    webpack --config webpack.config.prod.min.js
+TODO:
+- Get NODE_ENV=production using DefinePlugin
+- Use inline source maps for dev builds
